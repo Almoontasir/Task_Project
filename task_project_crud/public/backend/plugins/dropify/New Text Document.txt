@@ -1,0 +1,16 @@
+  <input type="file" name="thumbnail" required="" accept="image/*" class="dropify">
+ <script>
+       
+     
+        $('.dropify').dropify({
+    messages: {
+        'default': 'Drag and drop',
+        'replace': 'Drag and drop or click to replace',
+        'remove':  'Remove',
+        'error':   'Ooops, something wrong happended.'
+    }
+});
+    </script>
+
+<script src="{{ asset('backend') }}/plugins/dropify/dropify.js"></script>
+<link rel="stylesheet" href="{{asset('backend')}}/plugins/dropify/dropify.css">
